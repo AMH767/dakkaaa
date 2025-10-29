@@ -1,0 +1,420 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head><script>window.huggingface={variables:{"SPACE_CREATOR_USER_ID":"67cf176c949c504dd20cffc1"}};</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DACeramic Studio - Гончарная студия</title>
+    <link rel="stylesheet" href="style-1.css">
+    <script src="3.4-1.17"></script>
+    <script src="npm/feather-icons/dist/feather.min-1.js"></script>
+    <script src="feather-icons%404.29.2/dist/feather.min-1.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clay: {
+                100: '#f5e9e1',
+                200: '#e8d5c9',
+                300: '#d9c1b0',
+                400: '#c9a993',
+                500: '#b58f76',
+                600: '#9e7a61',
+                700: '#85654d',
+                800: '#6b513a',
+                900: '#513d28',
+              }
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="bg-clay-100 font-sans">
+    <custom-navbar></custom-navbar>
+    <!-- Hero Section -->
+    <section class="hero bg-clay-200 overflow-hidden">
+      <div class="absolute inset-0 bg-[url('http://static.photos/craft/1200x630/42')] bg-cover bg-center opacity-20 bg-fixed"></div>
+      <div class="container mx-auto px-6 relative z-10">
+        <div class="max-w-4xl mx-auto text-center fade-in">
+          <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold text-clay-800 mb-6 leading-tight">DACeramic Studio</h1>
+          <p class="text-xl md:text-2xl text-clay-700 max-w-2xl mx-auto mb-10">Где земля встречается с искусством. Создавайте уникальные керамические изделия в нашей уютной студии.</p>
+          <div class="flex flex-wrap justify-center gap-4">
+            <a href="#classes" class="btn btn-primary">
+              Записаться на занятие <i data-feather="arrow-right" class="ml-2"></i>
+            </a>
+            <a href="#about" class="btn bg-white text-clay-700 hover:bg-gray-50">
+              <i data-feather="info" class="mr-2"></i> О студии
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Studio Section -->
+    <section id="about" class="section bg-white">
+      <div class="container mx-auto px-6">
+        <h2 class="section-title text-4xl font-bold text-clay-800 text-center">О нашей студии</h2>
+        <div class="flex flex-col lg:flex-row items-center gap-12">
+          <div class="w-full lg:w-1/2">
+            <div class="bg-clay-200 rounded-xl overflow-hidden shadow-xl h-[300px] lg:h-[500px]">
+              <div class="h-full bg-[url('http://static.photos/workspace/1024x576/23')] bg-cover bg-center"></div>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/2 fade-in delay-1">
+<div class="max-w-lg mx-auto lg:mx-0">
+              <h3 class="text-2xl font-bold text-clay-700 mb-4">ClayCraft Studio — это пространство творчества</h3>
+              <p class="text-lg text-gray-700 mb-6">Мы верим, что работа с глиной — это медитативный процесс, который позволяет соединиться с природными материалами и создать что-то по-настоящему уникальное.</p>
+              <p class="text-lg text-gray-700 mb-8">Наша философия основана на уважении к традиционным техникам и постоянном поиске новых форм выражения. Мы стремимся создать атмосферу, в которой творчество становится естественным продолжением личности.</p>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="bg-clay-100 p-4 rounded-lg">
+                  <i data-feather="award" class="text-clay-600 w-8 h-8 mb-2"></i>
+                  <h4 class="font-bold text-clay-800">Профессионализм</h4>
+                  <p class="text-sm text-gray-600">Мастера с 10+ лет опыта</p>
+                </div>
+                <div class="bg-clay-100 p-4 rounded-lg">
+                  <i data-feather="heart" class="text-clay-600 w-8 h-8 mb-2"></i>
+                  <h4 class="font-bold text-clay-800">Теплая атмосфера</h4>
+                  <p class="text-sm text-gray-600">Уютное пространство</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gallery Section -->
+    <section id="gallery" class="section bg-clay-100">
+      <div class="container mx-auto px-6">
+        <h2 class="section-title text-4xl font-bold text-clay-800 text-center">Наши работы</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Item 1 -->
+          <div class="card fade-in delay-1">
+            <div class="relative overflow-hidden">
+              <div class="card-img bg-[url('http://static.photos/minimal/640x360/1')] bg-cover bg-center"></div>
+              <span class="card-badge">Хит продаж</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Керамическая чаша</h3>
+              <p class="card-text">Ручная работа, глазурь с эффектом кракелюра</p>
+              <div class="flex justify-between items-center">
+                <p class="card-price">2500 ₽</p>
+                <button class="text-clay-500 hover:text-clay-700 transition-all">
+                  <i data-feather="shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="card fade-in delay-2">
+            <div class="relative overflow-hidden">
+              <div class="card-img bg-[url('http://static.photos/minimal/640x360/2')] bg-cover bg-center"></div>
+              <span class="card-badge">Новинка</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Набор кружек</h3>
+              <p class="card-text">Комплект из 2 кружек, ручная роспись</p>
+              <div class="flex justify-between items-center">
+                <p class="card-price">3900 ₽</p>
+                <button class="text-clay-500 hover:text-clay-700 transition-all">
+                  <i data-feather="shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="card fade-in delay-3">
+            <div class="relative overflow-hidden">
+              <div class="card-img bg-[url('http://static.photos/minimal/640x360/3')] bg-cover bg-center"></div>
+              <span class="card-badge">Эксклюзив</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Декоративная ваза</h3>
+              <p class="card-text">Высота 35 см, фактурная поверхность</p>
+              <div class="flex justify-between items-center">
+                <p class="card-price">4500 ₽</p>
+                <button class="text-clay-500 hover:text-clay-700 transition-all">
+                  <i data-feather="shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+</div>
+        <div class="text-center mt-12 fade-in delay-3">
+          <a href="#" class="btn bg-white text-clay-700 hover:bg-gray-50">
+            <i data-feather="grid" class="mr-2"></i> Посмотреть все работы
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Classes Section -->
+    <section id="classes" class="section bg-white">
+      <div class="container mx-auto px-6">
+        <h2 class="section-title text-4xl font-bold text-clay-800 text-center">Мастер-классы</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+          <!-- Master Class Cards -->
+          <div class="card bg-white fade-in delay-1">
+            <div class="h-48 bg-[url('http://static.photos/craft/640x360/1')] bg-cover bg-center"></div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-clay-800 mb-2">Мастер-класс по ручной лепке</h3>
+              <p class="text-gray-600 mb-4">Погружение в мир тактильных ощущений. Создайте посуду или декор и распишите пигментом!</p>
+              <div class="space-y-2">
+                <p class="text-sm"><span class="font-medium">1 час:</span> 1700  ₽</p>
+                <p class="text-sm"><span class="font-medium">1.5 часа:</span> 2300  ₽</p>
+                <p class="text-sm"><span class="font-medium">2 часа:</span> 2950 ₽</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-white fade-in delay-2">
+            <div class="h-48 bg-[url('http://static.photos/craft/640x360/2')] bg-cover bg-center"></div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-clay-800 mb-2">Мастер-класс за гончарным кругом</h3>
+              <p class="text-gray-600 mb-4">Медитативный процесс создания керамики. Создайте чашку, миску или вазу и распишите!</p>
+              <div class="space-y-2">
+                <p class="text-sm"><span class="font-medium">1 час:</span> 1800  ₽</p>
+                <p class="text-sm"><span class="font-medium">1.5 часа:</span> 2500  ₽</p>
+                <p class="text-sm"><span class="font-medium">2 часа:</span> 3100  ₽</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-white fade-in delay-3">
+            <div class="h-48 bg-[url('http://static.photos/craft/640x360/3')] bg-cover bg-center"></div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-clay-800 mb-2">Семейные мастер-классы</h3>
+              <p class="text-gray-600 mb-4">Создавайте воспоминания вместе! Гончарный круг и лепка объединят поколения.</p>
+              <div class="space-y-2">
+                <p class="text-sm"><span class="font-medium">2 чел (1.5ч):</span> 4300 ₽</p>
+                <p class="text-sm"><span class="font-medium">3 чел (1.5ч):</span> 6500 ₽</p>
+                <p class="text-sm"><span class="font-medium">4 чел (1.5ч):</span> 8700 ₽</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-white fade-in delay-1">
+            <div class="h-48 bg-[url('http://static.photos/craft/640x360/4')] bg-cover bg-center"></div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-clay-800 mb-2">Подарочные сертификаты</h3>
+              <p class="text-gray-600 mb-4">Подарок, который создается руками. Выберите между гончарным кругом и ручной лепкой.</p>
+              <p class="text-sm font-medium">Допустимая сумма от 1700 ₽</p>
+            </div>
+          </div>
+
+          <div class="card bg-white fade-in delay-2">
+            <div class="h-48 bg-[url('http://static.photos/craft/640x360/5')] bg-cover bg-center"></div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-clay-800 mb-2">Абонементы</h3>
+              <p class="text-gray-600 mb-4">Системное погружение в керамику с выгодой и гибкостью графика.</p>
+              <div class="space-y-2">
+                <p class="text-sm"><span class="font-medium">Детский (5ч):</span> 6200 ₽</p>
+                <p class="text-sm"><span class="font-medium">Детский (8ч):</span> 9800 ₽</p>
+                <p class="text-sm"><span class="font-medium">Взрослый (6ч):</span> 7700 ₽</p>
+                <p class="text-sm"><span class="font-medium">Взрослый (12ч):</span> 15500  ₽</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-white fade-in delay-3">
+            <div class="h-48 bg-[url('http://static.photos/craft/640x360/6')] bg-cover bg-center"></div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-clay-800 mb-2">Детский мастер-класс</h3>
+              <p class="text-gray-600 mb-4">Глина оживает в детских руках! Развиваем моторику, креативность и художественный вкус.</p>
+              <div class="space-y-2">
+                <p class="text-sm"><span class="font-medium">1 час:</span> 1500 ₽</p>
+                <p class="text-sm"><span class="font-medium">1.5 часа:</span> 1750 ₽</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-white fade-in delay-1 md:col-span-2 lg:col-span-3">
+            <div class="h-48 bg-[url('http://static.photos/craft/1200x630/7')] bg-cover bg-center"></div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-clay-800 mb-2">Свидание в мастерской</h3>
+              <p class="text-gray-600 mb-4">Создайте первый совместный шедевр из глины - идеальный символ ваших отношений.</p>
+              <p class="text-sm font-medium">2 часа + вино и сладости: 7500  ₽</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="max-w-4xl mx-auto bg-clay-50 rounded-2xl p-10 shadow-xl fade-in">
+          <h3 class="text-2xl font-bold text-clay-800 mb-8 text-center">Записаться на занятие</h3>
+<form id="booking-form" class="space-y-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label for="name" class="block text-gray-700 mb-2 font-medium">Ваше имя</label>
+                <input type="text" id="name" required="" class="form-control w-full">
+              </div>
+              <div>
+                <label for="phone" class="block text-gray-700 mb-2 font-medium">Телефон</label>
+                <input type="tel" id="phone" required="" class="form-control w-full">
+              </div>
+              <div>
+                <label for="email" class="block text-gray-700 mb-2 font-medium">Email</label>
+                <input type="email" id="email" class="form-control w-full">
+              </div>
+              <div>
+                <label for="date" class="block text-gray-700 mb-2 font-medium">Дата занятия</label>
+                <input type="date" id="date" required="" class="form-control w-full">
+              </div>
+            </div>
+            <div>
+              <label for="class-type" class="block text-gray-700 mb-2 font-medium">Тип занятия</label>
+              <select id="class-type" required="" class="form-control w-full">
+                <option value="">Выберите тип занятия</option>
+                <option value="Мастер-класс по ручной лепке (1 час)">Мастер-класс по ручной лепке (1 час) - 1700 ₽</option>
+                <option value="Мастер-класс по ручной лепке (1.5 часа)">Мастер-класс по ручной лепке (1.5 часа) - 2300 ₽</option>
+                <option value="Мастер-класс по ручной лепке (2 часа)">Мастер-класс по ручной лепке (2 часа) - 2950 ₽</option>
+                <option value="Гончарный круг (1 час)">Гончарный круг (1 час) - 1800  ₽</option>
+                <option value="Гончарный круг (1.5 часа)">Гончарный круг (1.5 часа) - 2500 ₽</option>
+                <option value="Гончарный круг (2 часа)">Гончарный круг (2 часа) - 3100 ₽</option>
+                <option value="Семейный мастер-класс (2 чел)">Семейный мастер-класс (2 чел) - 4300 ₽</option>
+                <option value="Семейный мастер-класс (3 чел)">Семейный мастер-класс (3 чел) - 6500 ₽</option>
+                <option value="Семейный мастер-класс (4 чел)">Семейный мастер-класс (4 чел) - 8700 ₽</option>
+                <option value="Детский мастер-класс (1 час)">Детский мастер-класс (1 час) - 1500 ₽</option>
+                <option value="Детский мастер-класс (1.5 часа)">Детский мастер-класс (1.5 часа) - 1750 ₽</option>
+                <option value="Свидание в мастерской">Свидание в мастерской - 7500 ₽</option>
+                <option value="Подарочный сертификат">Подарочный сертификат</option>
+                <option value="Абонемент детский (5 занятий)">Абонемент детский (5 занятий) - 6200 ₽</option>
+                <option value="Абонемент детский (8 занятий)">Абонемент детский (8 занятий) - 9800 ₽</option>
+                <option value="Абонемент взрослый (6 часов)">Абонемент взрослый (6 часов) - 7700 ₽</option>
+                <option value="Абонемент взрослый (12 часов)">Абонемент взрослый (12 часов) - 15500 ₽</option>
+              </select>
+</div>
+            <div>
+              <label for="message" class="block text-gray-700 mb-2 font-medium">Ваши пожелания</label>
+              <textarea id="message" rows="4" class="form-control w-full"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-full">
+              <i data-feather="send" class="mr-2"></i> Отправить заявку
+            </button>
+          </form>
+</div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-clay-800 text-white">
+      <div class="container mx-auto px-6">
+        <h2 class="section-title text-4xl font-bold text-white text-center">Контакты</h2>
+        <div class="flex flex-col lg:flex-row gap-12">
+          <div class="lg:w-1/2 fade-in">
+            <div class="bg-clay-700 p-8 rounded-2xl shadow-xl h-full">
+              <h3 class="text-2xl font-bold mb-6">Свяжитесь с нами</h3>
+              <div class="space-y-6">
+                <div class="flex items-start">
+                  <div class="bg-clay-600 p-3 rounded-full mr-4">
+                    <i data-feather="map-pin" class="w-5 h-5"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-medium mb-1">Адрес</h4>
+                    <p>бульвар Космонавтов, 13, Красногорск, Московская область, 143408</p>
+</div>
+                </div>
+                <div class="flex items-start">
+                  <div class="bg-clay-600 p-3 rounded-full mr-4">
+                    <i data-feather="phone" class="w-5 h-5"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-medium mb-1">Телефон</h4>
+                    <p>+7 (495) 123-45-67</p>
+                  </div>
+                </div>
+                <div class="flex items-start">
+                  <div class="bg-clay-600 p-3 rounded-full mr-4">
+                    <i data-feather="mail" class="w-5 h-5"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-medium mb-1">Email</h4>
+                    <p>info@daceramicstudio.ru</p>
+                  </div>
+                </div>
+                <div class="flex items-start">
+                  <div class="bg-clay-600 p-3 rounded-full mr-4">
+                    <i data-feather="clock" class="w-5 h-5"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-medium mb-1">Часы работы</h4>
+                    <p>Пн-Пт: 10:00 - 20:00<br>Сб-Вс: 11:00 - 18:00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-8">
+                <h4 class="font-medium mb-4">Подпишитесь на нас</h4>
+                <div class="flex gap-4">
+                  <a href="#" class="bg-clay-600 hover:bg-clay-500 p-3 rounded-full transition-all">
+                    <i data-feather="instagram"></i>
+                  </a>
+                  <a href="#" class="bg-clay-600 hover:bg-clay-500 p-3 rounded-full transition-all">
+                    <i data-feather="facebook"></i>
+                  </a>
+                  <a href="#" class="bg-clay-600 hover:bg-clay-500 p-3 rounded-full transition-all">
+                    <i data-feather="youtube"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/2 fade-in delay-1">
+            <div class="bg-white rounded-2xl overflow-hidden shadow-xl h-full">
+              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A0f5d7c1c9f2c1c6a0c8d7e3a2a3a9e5f3a1a9e5f3a1a9e5f3a1a9e5f3a1a9e5f&source=constructor" width="100%" height="100%" style="min-height: 400px; border:0;" frameborder="0"></iframe>
+            </div>
+</div>
+        </div>
+      </div>
+    </section>
+<custom-footer></custom-footer>
+    
+    <script src="components/navbar-1.js"></script>
+    <script src="components/footer-1.js"></script>
+    <script src="script-1.js"></script>
+    <script>
+      feather.replace();
+      
+      document.getElementById('booking-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const formData = {
+          name: document.getElementById('name').value,
+          phone: document.getElementById('phone').value,
+          email: document.getElementById('email').value,
+          date: document.getElementById('date').value,
+          classType: document.getElementById('class-type').value,
+          message: document.getElementById('message').value
+        };
+        
+        const botToken = '8090382627:AAFxrnD0w7ofS5-cneVWF-vDuAcacUFSvjQ';
+        const chatId = '914022105';
+        const text = `🎨 Новая заявка в DACeramic Studio! 🏺
+
+👤 Клиент: ${formData.name}
+📞 Телефон: ${formData.phone}
+📧 Email: ${formData.email || 'Не указан'}
+📅 Дата занятия: ${formData.date}
+🏆 Тип занятия: ${formData.classType}
+✏️ Пожелания: ${formData.message || 'Не указаны'}
+
+⏳ Время заявки: ${new Date().toLocaleString()}
+🔔 Срочно связаться!`;
+fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            chat_id: chatId,
+            text: text
+          })
+        })
+        .then(response => response.json())
+        .then(data => {
+          alert('Ваша заявка успешно отправлена! Мы свяжемся с вами в ближайшее время.');
+          document.getElementById('booking-form').reset();
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          alert('Произошла ошибка при отправке заявки. Пожалуйста, попробуйте позже.');
+        });
+      });
+    </script>
+<script src="deepsite/deepsite-badge-1.js"></script>
+</body>
+</html>
